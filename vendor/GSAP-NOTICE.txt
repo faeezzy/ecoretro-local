@@ -1,0 +1,10 @@
+GSAP 3.14.2 and ScrollTrigger 3.14.2
+Copyright and license notices are preserved in the original JavaScript headers.
+
+Publisher: https://gsap.com/
+License terms: https://gsap.com/standard-license/
+Documentation: https://gsap.com/docs/v3/
+
+Unmodified distribution files sourced from the gsap npm package, version 3.14.2:
+https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js
+https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/ScrollTrigger.min.js

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101912">
+  <meta name="description" content="EcoRetro: konsep layanan pemeriksaan energi, retrofit bertahap, dan monitoring web untuk kos ber-AC.">
+  <title>EcoRetro — Bangunan lama. Energi baru.</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/gsap.min.js" defer></script>
+  <script src="vendor/ScrollTrigger.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Lewati navigasi</a>
+<nav aria-label="Navigasi utama"><div class="wrap nav-inner">
+  <a class="logo" href="#home" aria-label="EcoRetro beranda"><img src="assets/icon.svg" alt="" width="36" height="42"><span>Eco<span class="green-word">Retro</span></span></a>
+  <div class="links" id="navlinks"><a href="#solusi">Solusi</a><a href="#cara-kerja">Cara kerja</a><a href="#monitoring">Monitoring</a><a href="#faq">FAQ</a></div>
+  <a class="btn nav-cta" href="#konsultasi">Konsultasi properti <span aria-hidden="true">↗</span></a>
+  <button class="menu" aria-expanded="false" aria-controls="navlinks">Menu</button>
+</div></nav>
+<main id="main">
+<header class="hero" id="home"><div class="hero-glow" aria-hidden="true"></div><div class="wrap">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow hero-enter"><i class="dot"></i> A smarter way to retrofit</div>
+      <h1 class="hero-enter">Bangunan lama.<br>Energi baru.<br><em>Biaya terkendali.</em></h1>
+      <p class="intro hero-enter">Bantu kos lu bekerja lebih efisien. Temukan pemborosan listrik, pilih perbaikan yang tepat, dan pantau hasilnya dalam satu layanan.</p>
+      <div class="actions hero-enter"><a class="btn" href="#solusi">Jelajahi solusinya <span aria-hidden="true">↗</span></a><a class="btn secondary" href="#monitoring">Lihat monitoring <span aria-hidden="true">↓</span></a></div>
+      <p class="hero-note hero-enter">Dirancang untuk kos ber-AC dengan listrik termasuk biaya sewa.</p>
+    </div>
+    <div class="scene"><div class="scene-parallax"><div class="scene-tilt">
+      <img class="building" src="assets/building.svg" width="600" height="520" alt="Ilustrasi kos isometrik hijau dengan panel atap dan aliran energi">
+      <div class="float top"><small>Pendekatan EcoRetro</small><strong><b>↗</b> Retrofit berbasis data</strong></div>
+      <div class="float bottom"><small>Energy overview</small><strong>Pantau. Evaluasi. Perbaiki.</strong><div class="mini-bars" aria-hidden="true"><i style="--height:90%"></i><i style="--height:75%"></i><i style="--height:85%"></i><i style="--height:60%"></i><i style="--height:65%"></i><i style="--height:42%"></i><i style="--height:35%"></i></div></div>
+      <div class="scene-label">ILUSTRASI KONSEP · BUKAN HASIL PENGUKURAN</div>
+    </div></div></div>
+  </div>
+  <div class="hero-bottom"><div><span>Audit energi</span><span>Retrofit bertahap</span><span>Monitoring web</span></div><a href="#solusi">Kenali EcoRetro ↓</a></div>
+</div></header>
+
+<section class="solutions" id="solusi"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">01 / Solusi kami</div><h2>Efisiensi dimulai dari<br>keputusan yang tepat.</h2></div><p>Setiap properti punya kebutuhan berbeda. EcoRetro menghubungkan pemeriksaan, perbaikan, dan evaluasi dalam satu alur.</p></div>
+  <div class="solution-grid">
+    <article class="solution reveal"><span class="number">01 — TEMUKAN</span><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="26" cy="26" r="17"/><path d="m39 39 16 16M17 30v-9m9 14V16m9 13v-7"/></svg><h3>Kenali pola energi.</h3><p>Pemeriksaan kondisi bangunan, perangkat, dan tagihan untuk memahami penggunaan listrik serta peluang perbaikan.</p><span class="tag">Audit & baseline</span></article>
+    <article class="solution reveal"><span class="number">02 — TINGKATKAN</span><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 54V24l20-14 20 14v30H12ZM22 54V39h20v15M22 25h20M26 31h12m5-22 8-6m2 15 8-1"/></svg><h3>Perbaiki secara bertahap.</h3><p>Pilih tindakan sesuai kondisi dan anggaran: servis AC, peneduhan, atau penyesuaian operasional berdasarkan pemeriksaan.</p><span class="tag">Rencana & implementasi</span></article>
+    <article class="solution reveal"><span class="number">03 — PANTAU</span><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="7" y="10" width="50" height="36" rx="3"/><path d="M22 56h20M32 46v10M15 35l11-10 10 5 13-12"/></svg><h3>Lihat hasilnya dengan jelas.</h3><p>Pantau konsumsi dan evaluasi perubahan dengan mempertimbangkan okupansi, cuaca, serta kenyamanan penghuni.</p><span class="tag">Monitoring & evaluasi</span></article>
+  </div>
+</div></section>
+
+<section class="monitor" id="monitoring"><div class="wrap monitor-grid">
+  <div class="monitor-copy reveal"><div class="eyebrow">02 / Visibilitas energi</div><h2>Lebih dari<br>sekadar tagihan<br>akhir bulan.</h2><p>Dashboard yang membantu pemilik memahami apa yang terjadi di propertinya dan menentukan langkah berikutnya.</p><ul class="ticks"><li>Ringkasan pola konsumsi listrik</li><li>Catatan intervensi dan perubahan penggunaan</li><li>Rekomendasi tindak lanjut yang bisa ditinjau</li></ul></div>
+  <div class="dashboard-shell"><div class="dashboard">
+    <div class="dash-top"><span class="dash-title">EcoRetro / Overview</span><span class="demo">DATA ILUSTRASI</span></div>
+    <div class="dashboard-tabs" aria-label="Pilih periode grafik"><button class="active" data-period="week" aria-pressed="true">Mingguan</button><button data-period="month" aria-pressed="false">Bulanan</button></div>
+    <div class="dash-label" id="chart-caption" aria-live="polite">Contoh pola konsumsi · 7 hari</div><div class="dash-reading">Kenali ritme properti lu.</div>
+    <svg class="chart" viewBox="0 0 440 150" role="img" aria-labelledby="chart-title"><title id="chart-title">Grafik ilustratif pola konsumsi selama tujuh hari; bukan data aktual.</title><defs><linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#96c96c" stop-opacity=".5"/><stop offset="1" stop-color="#96c96c" stop-opacity="0"/></linearGradient></defs><g stroke="#dfe6d8" stroke-dasharray="4 5"><path d="M0 30h440M0 70h440M0 110h440"/></g><path id="area" d="M0 100 Q35 110 65 65 T135 75 T210 45 T285 80 T360 60 T440 82 L440 150H0Z" fill="url(#chartFill)"/><path id="curve" d="M0 100 Q35 110 65 65 T135 75 T210 45 T285 80 T360 60 T440 82" fill="none" stroke="#5d963e" stroke-width="3"/></svg>
+    <div class="chart-labels" id="chart-labels"><span>Sen</span><span>Sel</span><span>Rab</span><span>Kam</span><span>Jum</span><span>Sab</span><span>Min</span></div>
+    <div class="dash-insight"><span aria-hidden="true">↗</span><div><b>Data memberi konteks.</b><br>Perubahan konsumsi perlu dibaca bersama okupansi dan kondisi operasional.</div></div><div class="dash-foot">Preview tampilan. Grafik bukan hasil penghematan aktual.</div>
+  </div></div>
+</div></section>
+
+<section class="process" id="cara-kerja"><div class="wrap">
+  <div class="process-head reveal"><div class="eyebrow">03 / Cara kerja</div><h2>Dari pemeriksaan awal<br>ke perbaikan yang terarah.</h2></div>
+  <div class="steps"><div class="step reveal"><span class="index">01</span><h3>Ceritakan properti lu.</h3><p>Kenali kebutuhan, pola pembayaran listrik, kondisi perangkat, dan anggaran yang tersedia.</p></div><div class="step reveal"><span class="index">02</span><h3>Susun prioritas perbaikan.</h3><p>Hasil pemeriksaan menjadi dasar rekomendasi, estimasi biaya, dan perkiraan manfaat untuk dipertimbangkan.</p></div><div class="step reveal"><span class="index">03</span><h3>Jalankan & evaluasi.</h3><p>Laksanakan pekerjaan yang disepakati, pantau perubahan, lalu tentukan tindak lanjut berdasarkan hasilnya.</p></div></div>
+</div></section>
+
+<section class="fit-section"><div class="wrap fit">
+  <div class="fit-copy reveal"><div class="eyebrow">Didesain untuk pemilik kos</div><h2>Lu menanggung listriknya.<br>Lu perlu memahami<br>pemakaiannya.</h2><p>Fokus awal EcoRetro adalah kos ber-AC dengan listrik termasuk biaya sewa, sehingga manfaat efisiensi langsung relevan bagi pemilik.</p></div>
+  <div class="fit-visual"><div class="property-tag"><span class="roof">PROPERTY PROFILE</span><strong>Kos ber-AC<br>Listrik all-in</strong><p>Pemilik / pengelola properti<br>Area awal yang direncanakan: Bandung</p></div></div>
+</div></section>
+
+<section class="faq" id="faq"><div class="wrap faq-grid">
+  <div class="reveal"><div class="eyebrow">04 / Pertanyaan umum</div><h2>Sebelum<br>mulai berbenah.</h2></div>
+  <div class="reveal"><details open><summary>Apakah harus renovasi besar?</summary><p>Tidak selalu. Lingkup pekerjaan mengikuti hasil pemeriksaan. Langkah awal bisa berupa perawatan perangkat atau perubahan operasional, sebelum mempertimbangkan intervensi yang lebih besar.</p></details><details><summary>Berapa besar penghematannya?</summary><p>Belum bisa ditentukan sebelum pemeriksaan. Potensi penghematan bergantung pada kondisi awal, tindakan yang dipilih, pola penggunaan, serta cuaca dan okupansi.</p></details><details><summary>Bagaimana model pembayarannya?</summary><p>Rancangan layanan terdiri dari biaya pemeriksaan, paket perangkat dan pemasangan sesuai kebutuhan, serta langganan monitoring. Harga dan lingkup pekerjaan ditentukan melalui penawaran.</p></details><details><summary>Apakah ini hanya aplikasi?</summary><p>EcoRetro dirancang sebagai layanan pemeriksaan dan perbaikan properti dengan dashboard web sebagai alat pemantauan. Pekerjaan lapangan dan evaluasi menjadi bagian dari alurnya.</p></details></div>
+</div></section>
+
+<section class="contact" id="konsultasi"><div class="wrap reveal"><div class="eyebrow"><i class="dot"></i> Mulai dari properti lu</div><h2>Bangun efisiensi.<br><span> Pertahankan kenyamanan.</span></h2><p>Kenali peluang perbaikan sebelum memutuskan investasi berikutnya untuk kos lu.</p><button class="btn" id="consult">Diskusikan kebutuhan properti <span aria-hidden="true">↗</span></button></div></section>
+</main>
+<footer><div class="wrap footer-inner"><a class="logo" href="#home"><span>Eco<span class="green-word">Retro</span></span></a><p>Smarter buildings. Thoughtful energy.</p></div></footer>
+<div class="prototype-note">Prototipe konsep EcoRetro · Monitoring menggunakan data ilustrasi.</div>
+<dialog id="contact-dialog" aria-labelledby="dialog-title"><button class="dialog-x" id="close-dialog" aria-label="Tutup dialog">×</button><span class="eyebrow">Konsultasi properti</span><h2 id="dialog-title">Mulai dari<br>mengenal properti.</h2><p>Ini prototipe lokal EcoRetro. Layanan konsultasi dan pengiriman data belum diaktifkan.</p><p>Siapkan jenis properti, jumlah kamar ber-AC, pola pembayaran listrik, dan kebutuhan perbaikan untuk konsultasi nanti.</p><button class="btn" id="dialog-done">Mengerti <span aria-hidden="true">↗</span></button></dialog>
+</body></html>
